@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042196012C0CA45B00E0E84F /* SignupScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042196002C0CA45B00E0E84F /* SignupScreenViewController.swift */; };
+		0443A34D2BFDB4C000400381 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443A34C2BFDB4C000400381 /* model.swift */; };
+		0443A3502BFDE0E100400381 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443A34F2BFDE0E100400381 /* DataManager.swift */; };
+		0478BAA72BF91619002793CB /* CreateNoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478BAA62BF91619002793CB /* CreateNoteTableViewController.swift */; };
+		0478BAA92BF91684002793CB /* UpdateNoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478BAA82BF91684002793CB /* UpdateNoteTableViewController.swift */; };
+		0478BAAD2BF924FB002793CB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478BAAC2BF924FB002793CB /* SettingViewController.swift */; };
+		0478BAB02BF9AE17002793CB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0478BAAF2BF9AE17002793CB /* Alamofire */; };
+		0478BAB52BF9AE33002793CB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0478BAB42BF9AE33002793CB /* SnapKit */; };
+		048F25892BFA426200CFBBBC /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F25882BFA426200CFBBBC /* HomeTabViewController.swift */; };
+		048F258B2BFB9AC600CFBBBC /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F258A2BFB9AC600CFBBBC /* LoginScreenViewController.swift */; };
 		04CEFD1A2BF88C8E007C2BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEFD192BF88C8E007C2BE2 /* AppDelegate.swift */; };
 		04CEFD1C2BF88C8E007C2BE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEFD1B2BF88C8E007C2BE2 /* SceneDelegate.swift */; };
 		04CEFD1E2BF88C8E007C2BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEFD1D2BF88C8E007C2BE2 /* ViewController.swift */; };
 		04CEFD212BF88C8E007C2BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CEFD1F2BF88C8E007C2BE2 /* Main.storyboard */; };
 		04CEFD232BF88C90007C2BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CEFD222BF88C90007C2BE2 /* Assets.xcassets */; };
 		04CEFD262BF88C90007C2BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CEFD242BF88C90007C2BE2 /* LaunchScreen.storyboard */; };
+		04D6F0632C057D03004C2912 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6F0622C057D03004C2912 /* TestViewController.swift */; };
+		04EADBBE2BF892D100B20C9A /* NoteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EADBBD2BF892D100B20C9A /* NoteCollectionViewCell.swift */; };
+		04EADBC02BF8931400B20C9A /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EADBBF2BF8931400B20C9A /* NoteViewController.swift */; };
+		04EADBC22BF8989700B20C9A /* CreateNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EADBC12BF8989700B20C9A /* CreateNoteViewController.swift */; };
+		04EADBC62BF8A34000B20C9A /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EADBC52BF8A34000B20C9A /* EditViewController.swift */; };
+		04EADBCA2BF8B3F400B20C9A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EADBC92BF8B3F400B20C9A /* TableViewController.swift */; };
+		04EADBCC2BF8B40700B20C9A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EADBCB2BF8B40700B20C9A /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042196002C0CA45B00E0E84F /* SignupScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScreenViewController.swift; sourceTree = "<group>"; };
+		0443A34C2BFDB4C000400381 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		0443A34F2BFDE0E100400381 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		0478BAA62BF91619002793CB /* CreateNoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteTableViewController.swift; sourceTree = "<group>"; };
+		0478BAA82BF91684002793CB /* UpdateNoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateNoteTableViewController.swift; sourceTree = "<group>"; };
+		0478BAAC2BF924FB002793CB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		048F25882BFA426200CFBBBC /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		048F258A2BFB9AC600CFBBBC /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		04CEFD162BF88C8E007C2BE2 /* noteProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noteProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CEFD192BF88C8E007C2BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04CEFD1B2BF88C8E007C2BE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +49,13 @@
 		04CEFD222BF88C90007C2BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CEFD252BF88C90007C2BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CEFD272BF88C90007C2BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D6F0622C057D03004C2912 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		04EADBBD2BF892D100B20C9A /* NoteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCollectionViewCell.swift; sourceTree = "<group>"; };
+		04EADBBF2BF8931400B20C9A /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		04EADBC12BF8989700B20C9A /* CreateNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteViewController.swift; sourceTree = "<group>"; };
+		04EADBC52BF8A34000B20C9A /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		04EADBC92BF8B3F400B20C9A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		04EADBCB2BF8B40700B20C9A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0478BAB52BF9AE33002793CB /* SnapKit in Frameworks */,
+				0478BAB02BF9AE17002793CB /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043751D42BFF490200E6CEE7 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				04EADBBD2BF892D100B20C9A /* NoteCollectionViewCell.swift */,
+				04EADBBF2BF8931400B20C9A /* NoteViewController.swift */,
+				04EADBC12BF8989700B20C9A /* CreateNoteViewController.swift */,
+				04EADBC52BF8A34000B20C9A /* EditViewController.swift */,
+				048F25882BFA426200CFBBBC /* HomeTabViewController.swift */,
+			);
+			name = collectionView;
+			sourceTree = "<group>";
+		};
+		043751D52BFF49F000E6CEE7 /* loginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				048F258A2BFB9AC600CFBBBC /* LoginScreenViewController.swift */,
+			);
+			name = loginScreen;
+			sourceTree = "<group>";
+		};
+		0443A34B2BFDB47600400381 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0443A34C2BFDB4C000400381 /* model.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		0443A34E2BFDE00700400381 /* dataManager */ = {
+			isa = PBXGroup;
+			children = (
+				0443A34F2BFDE0E100400381 /* DataManager.swift */,
+			);
+			name = dataManager;
+			sourceTree = "<group>";
+		};
+		0478BAAB2BF924E0002793CB /* settingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0478BAAC2BF924FB002793CB /* SettingViewController.swift */,
+			);
+			name = settingScreen;
+			sourceTree = "<group>";
+		};
 		04CEFD0D2BF88C8E007C2BE2 = {
 			isa = PBXGroup;
 			children = (
 				04CEFD182BF88C8E007C2BE2 /* noteProject */,
 				04CEFD172BF88C8E007C2BE2 /* Products */,
+				A1161B26801C28164B6F764E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +135,13 @@
 		04CEFD182BF88C8E007C2BE2 /* noteProject */ = {
 			isa = PBXGroup;
 			children = (
+				04D6F0612C057CE7004C2912 /* test */,
+				043751D52BFF49F000E6CEE7 /* loginScreen */,
+				0443A34E2BFDE00700400381 /* dataManager */,
+				0443A34B2BFDB47600400381 /* models */,
+				0478BAAB2BF924E0002793CB /* settingScreen */,
+				04EADBC82BF8B3D500B20C9A /* tableView */,
+				043751D42BFF490200E6CEE7 /* collectionView */,
 				04CEFD192BF88C8E007C2BE2 /* AppDelegate.swift */,
 				04CEFD1B2BF88C8E007C2BE2 /* SceneDelegate.swift */,
 				04CEFD1D2BF88C8E007C2BE2 /* ViewController.swift */,
@@ -65,6 +151,33 @@
 				04CEFD272BF88C90007C2BE2 /* Info.plist */,
 			);
 			path = noteProject;
+			sourceTree = "<group>";
+		};
+		04D6F0612C057CE7004C2912 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				04D6F0622C057D03004C2912 /* TestViewController.swift */,
+				042196002C0CA45B00E0E84F /* SignupScreenViewController.swift */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		04EADBC82BF8B3D500B20C9A /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				0478BAA62BF91619002793CB /* CreateNoteTableViewController.swift */,
+				04EADBC92BF8B3F400B20C9A /* TableViewController.swift */,
+				04EADBCB2BF8B40700B20C9A /* TableViewCell.swift */,
+				0478BAA82BF91684002793CB /* UpdateNoteTableViewController.swift */,
+			);
+			name = tableView;
+			sourceTree = "<group>";
+		};
+		A1161B26801C28164B6F764E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +196,10 @@
 			dependencies = (
 			);
 			name = noteProject;
+			packageProductDependencies = (
+				0478BAAF2BF9AE17002793CB /* Alamofire */,
+				0478BAB42BF9AE33002793CB /* SnapKit */,
+			);
 			productName = noteProject;
 			productReference = 04CEFD162BF88C8E007C2BE2 /* noteProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +228,10 @@
 				Base,
 			);
 			mainGroup = 04CEFD0D2BF88C8E007C2BE2;
+			packageReferences = (
+				0478BAAE2BF9AE17002793CB /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0478BAB32BF9AE33002793CB /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 04CEFD172BF88C8E007C2BE2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +259,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0478BAA72BF91619002793CB /* CreateNoteTableViewController.swift in Sources */,
+				04EADBC62BF8A34000B20C9A /* EditViewController.swift in Sources */,
+				042196012C0CA45B00E0E84F /* SignupScreenViewController.swift in Sources */,
+				04D6F0632C057D03004C2912 /* TestViewController.swift in Sources */,
+				048F25892BFA426200CFBBBC /* HomeTabViewController.swift in Sources */,
+				0478BAAD2BF924FB002793CB /* SettingViewController.swift in Sources */,
+				04EADBBE2BF892D100B20C9A /* NoteCollectionViewCell.swift in Sources */,
 				04CEFD1E2BF88C8E007C2BE2 /* ViewController.swift in Sources */,
+				0443A34D2BFDB4C000400381 /* model.swift in Sources */,
 				04CEFD1A2BF88C8E007C2BE2 /* AppDelegate.swift in Sources */,
+				0443A3502BFDE0E100400381 /* DataManager.swift in Sources */,
+				048F258B2BFB9AC600CFBBBC /* LoginScreenViewController.swift in Sources */,
+				04EADBCC2BF8B40700B20C9A /* TableViewCell.swift in Sources */,
+				04EADBC02BF8931400B20C9A /* NoteViewController.swift in Sources */,
+				04EADBC22BF8989700B20C9A /* CreateNoteViewController.swift in Sources */,
+				04EADBCA2BF8B3F400B20C9A /* TableViewController.swift in Sources */,
+				0478BAA92BF91684002793CB /* UpdateNoteTableViewController.swift in Sources */,
 				04CEFD1C2BF88C8E007C2BE2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,7 +339,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +402,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -299,6 +435,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +463,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -361,6 +499,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0478BAAE2BF9AE17002793CB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		0478BAB32BF9AE33002793CB /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0478BAAF2BF9AE17002793CB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0478BAAE2BF9AE17002793CB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		0478BAB42BF9AE33002793CB /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0478BAB32BF9AE33002793CB /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04CEFD0E2BF88C8E007C2BE2 /* Project object */;
 }

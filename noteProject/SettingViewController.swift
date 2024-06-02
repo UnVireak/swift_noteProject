@@ -1,29 +1,42 @@
-//
-//  SettingViewController.swift
-//  noteProject
-//
-//  Created by mac on 19/5/24.
-//
-
 import UIKit
 
 class SettingViewController: UIViewController {
-
+    
+    @IBOutlet weak var userNameLabel: UILabel!
+    
+    var username: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        if let username = username {
+            userNameLabel.text = "Welcom \(username.capitalized)!"
+        }
     }
+    @IBAction func logOutButton(_ sender: Any) {
+        logout()
+        
+    }
+    func logout() {
+         let alertController = UIAlertController(title: "Logout", message: "Do you want to logout?", preferredStyle: .alert)
+         
+         let handleOK = UIAlertAction(title: "Ok", style: .default) { [weak self] _ in
+             self?.logoutFunc()
+         }
+         
+         let handleCancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+         
+         alertController.addAction(handleOK)
+         alertController.addAction(handleCancel)
+         
+         present(alertController, animated: true, completion: nil)
+     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    func logoutFunc() {
+            username = nil
+            userNameLabel.text = ""
+            
+            if let presentingVC = self.presentingViewController {
+                presentingVC.dismiss(animated: true, completion: nil)
+            }
+        }
 }

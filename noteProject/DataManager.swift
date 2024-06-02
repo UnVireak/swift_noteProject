@@ -1,8 +1,16 @@
-//
-//  DataManager.swift
-//  noteProject
-//
-//  Created by mac on 22/5/24.
-//
+class DataManager {
+    static let shared = DataManager()
+    var folders: [Folder] = []
 
-import Foundation
+    func saveFolder(_ folder: Folder) {
+        if let index = folders.firstIndex(where: { $0.id == folder.id }) {
+            folders[index] = folder
+        } else {
+            folders.append(folder)
+        }
+    }
+
+    func removeFolder(at index: Int) {
+        folders.remove(at: index)
+    }
+}

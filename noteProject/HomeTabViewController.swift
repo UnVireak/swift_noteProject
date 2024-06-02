@@ -1,29 +1,23 @@
-//
-//  HomeTabViewController.swift
-//  noteProject
-//
-//  Created by mac on 19/5/24.
-//
-
 import UIKit
 
 class HomeTabViewController: UITabBarController {
-
+    var username: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        passUsernameToSettingsVC()
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    private func passUsernameToSettingsVC() {
+           if let viewControllers = viewControllers {
+               for viewController in viewControllers {
+                   if let navController = viewController as? UINavigationController,
+                      let settingsVC = navController.topViewController as? SettingViewController {
+                       settingsVC.username = username
+                       
+                   } else if let settingsVC = viewController as? SettingViewController {
+                       settingsVC.username = username
+                   }
+               }
+           }
+       }
 }
